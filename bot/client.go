@@ -13,7 +13,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/Logiase/gomirai/tools"
+	"github.com/andyhuzhill/gomirai/tools"
 )
 
 // Client 与Mirai进行沟通

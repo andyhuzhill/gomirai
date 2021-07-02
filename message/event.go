@@ -43,6 +43,9 @@ type Event struct {
 	EventId      uint      `json:"eventId"`      //事件ID
 	FromId       uint      `json:"fromId"`       //操作人
 	GroupId      uint      `json:"groupId"`      //群号
+
+	Member  MemberData `json:"member,omitempty"`
+	Message string     `json:"message,omitempty"` // 入群申请消息
 }
 
 type Group struct {
@@ -76,4 +79,15 @@ type GroupConfig struct {
 type MemberInfo struct {
 	Name         string
 	SpecialTitle string
+}
+
+type MemberData struct {
+	ID         int
+	MemberName string
+	Permission string
+	Group      struct {
+		ID         int
+		Name       string
+		Permission string
+	}
 }

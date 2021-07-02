@@ -8,9 +8,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	// "github.com/Logiase/gomirai/helper"
-	"github.com/Logiase/gomirai/message"
-	"github.com/Logiase/gomirai/tools"
+	// "github.com/andyhuzhill/gomirai/helper"
+	"github.com/andyhuzhill/gomirai/message"
+	"github.com/andyhuzhill/gomirai/tools"
 )
 
 // Bot 对应一个机器人账号
